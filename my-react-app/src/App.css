@@ -1,0 +1,44 @@
+.banner {
+  width: 90%;
+  margin: 3rem auto;
+  background-color: #ff2348;
+  border-radius: 200px;
+  padding: 3rem 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;          /* text stacked vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Text styling */
+.banner-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.banner-text {
+  font-size: 1.15rem;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* Responsive for phones */
+@media (max-width: 600px) {
+  .banner {
+    width: 95%;
+    padding: 2rem 1rem;
+    border-radius: 50px;     /* smaller radius for smaller device */
+  }
+
+  .banner-title {
+    font-size: 1.4rem;
+  }
+
+  .banner-text {
+    font-size: 1rem;
+  }
+}
